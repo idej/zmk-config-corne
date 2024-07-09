@@ -48,11 +48,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - LEFT
   - DOWN
   - UP
@@ -86,7 +86,7 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
   - '`'
   - '~'
   - {t: ▽, type: trans}
@@ -114,33 +114,17 @@ layers:
 combos:
 - p: [13, 14]
   k: (
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [15, 16]
   k: )
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [12, 11]
   k: '['
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [17, 18]
   k: ']'
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [11, 12, 13]
   k: ESC
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [16, 17, 18]
   k: BACKSPACE
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [10, 11]
   k: '{'
-  l: [DEF, BRD]
-  draw_separate: true
 - p: [18, 19]
   k: '}'
-  l: [DEF, BRD]
-  draw_separate: true
