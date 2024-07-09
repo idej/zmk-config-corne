@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - /
-  - LEFT
-  - lower
-  - SPACE
-  - RET
-  - raise
-  - RIGHT
+  - '&caps_word'
+  - TAB
+  - {t: SPACE, h: lower}
+  - {t: ENTER, h: raise}
+  - BACKSPACE
+  - CAPS
   lower:
   - '1'
   - '2'
@@ -69,8 +69,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
-  - {type: held}
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: SPACE, type: held}
   - RET
   - {t: ▽, type: trans}
   - RALT
@@ -87,8 +87,8 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - '~'
   - {t: ▽, type: trans}
   - '-'
   - '='
@@ -108,19 +108,23 @@ layers:
   - LGUI
   - {t: ▽, type: trans}
   - SPACE
-  - RET
-  - {type: held}
+  - {t: RET, type: held}
+  - {t: ▽, type: trans}
   - RALT
 combos:
-- p: [16, 15]
+- p: [13, 14]
   k: (
-- p: [19, 20]
+- p: [15, 16]
   k: )
-- p: [15, 14]
+- p: [12, 11]
   k: '['
-- p: [20, 21]
+- p: [17, 18]
   k: ']'
-- p: [16, 15, 14]
+- p: [11, 12, 13]
   k: ESC
-- p: [19, 20, 21]
+- p: [16, 17, 18]
   k: BACKSPACE
+- p: [10, 11]
+  k: '{'
+- p: [18, 19]
+  k: '}'

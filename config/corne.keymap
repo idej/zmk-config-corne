@@ -9,9 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    chosen {
-        zmk,matrix-transform = &five_column_transform;
-    };
+    chosen { zmk,matrix-transform = &five_column_transform; };
 };
 
 #define KEYS_L LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4  // left hand
@@ -54,32 +52,42 @@
 
         LP {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 15>;
+            key-positions = <13 14>;
         };
 
         RP {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <19 20>;
+            key-positions = <15 16>;
         };
 
         LB {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <15 14>;
+            key-positions = <12 11>;
         };
 
         RB {
             bindings = <&kp RBKT>;
-            key-positions = <20 21>;
+            key-positions = <17 18>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <16 15 14>;
+            key-positions = <11 12 13>;
         };
 
         bspc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20 21>;
+            key-positions = <16 17 18>;
+        };
+
+        LB {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <10 11>;
+        };
+
+        RB {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <18 19>;
         };
     };
 
@@ -94,10 +102,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp Q         &kp W            &kp E            &kp R              &kp T        &kp Y    &kp U               &kp I             &kp O             &kp P          
-&hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_WIN D  &hml LEFT_SHIFT F  &kp G        &kp H    &hmr RIGHT_SHIFT J  &hmr RIGHT_WIN K  &hmr RIGHT_ALT L  &hmr RCTRL SEMI
-&kp Z         &kp X            &kp C            &kp V              &kp B        &kp N    &kp M               &kp COMMA         &kp DOT           &kp FSLH       
-                                      &kp LEFT         &mo 1              &kp SPACE    &kp RET  &mo 2               &kp RIGHT
+&kp Q            &kp W              &kp E  &kp R      &kp T               &kp Y               &kp U             &kp I            &kp O        &kp P        &hml LCTRL A   &hml LEFT_ALT S
+&hml LEFT_WIN D  &hml LEFT_SHIFT F  &kp G  &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_WIN K    &hmr RIGHT_ALT L  &hmr RCTRL SEMI  &kp Z        &kp X        &kp C          &kp V
+&kp B            &kp N              &kp M  &kp COMMA  &kp DOT             &kp FSLH            &caps_word        &kp TAB          &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE  &kp CAPS
             >;
         };
 
@@ -109,10 +116,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
-&trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp N1        &kp N2        &kp N3        &kp N4    &kp N5    &kp N6    &kp N7     &kp N8  &kp N9     &kp N0   &bt BT_SEL 0  &bt BT_SEL 1
+&bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans     &trans   &trans        &trans
+&trans        &trans        &trans        &trans    &trans    &trans    &kp LGUI   &trans  &kp SPACE  &kp RET  &trans        &kp RALT
             >;
         };
 
@@ -124,10 +130,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-&trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-&trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT  &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &trans  &trans
+&kp GRAVE  &kp TILDE  &trans    &kp MINUS  &kp EQUAL  &kp LBKT     &kp RBKT  &kp BSLH   &trans     &trans    &trans  &trans
+&trans     &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC   &kp PIPE     &kp LGUI  &trans     &kp SPACE  &kp RET   &trans  &kp RALT
             >;
         };
     };
