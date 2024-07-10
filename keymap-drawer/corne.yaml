@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - {t: A, h: Ctrl}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT WIN}
   - {t: F, h: LEFT SHIFT}
@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT WIN}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RCTRL}
+  - {t: ;, h: Ctrl}
   - Z
   - X
   - C
@@ -32,11 +32,11 @@ layers:
   - .
   - /
   - '&caps_word'
-  - TAB
-  - {t: SPACE, h: lower}
+  - ↹
+  - {t: ␣, h: lower}
   - {t: ENTER, h: raise}
   - BACKSPACE
-  - CAPS
+  - Caps Lock
   lower:
   - '1'
   - '2'
@@ -53,10 +53,10 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - ←
+  - ↓
+  - ↑
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,12 +68,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
+  - CMD
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
-  - RET
+  - {t: ␣, type: held}
+  - ⏎
   - {t: ▽, type: trans}
-  - RALT
+  - Alt
   raise:
   - '!'
   - '@'
@@ -105,12 +105,12 @@ layers:
   - '{'
   - '}'
   - '|'
-  - LGUI
+  - CMD
   - {t: ▽, type: trans}
-  - SPACE
-  - {t: RET, type: held}
+  - ␣
+  - {t: ⏎, type: held}
   - {t: ▽, type: trans}
-  - RALT
+  - Alt
 combos:
 - p: [13, 14]
   k: (
@@ -121,7 +121,7 @@ combos:
 - p: [17, 18]
   k: ']'
 - p: [11, 12, 13]
-  k: ESC
+  k: Esc
 - p: [16, 17, 18]
   k: BACKSPACE
 - p: [10, 11]

@@ -1,0 +1,117 @@
+# configuration for https://github.com/caksoylar/keymap-drawer
+parse_config:
+  zmk_combos:
+    combo_lp: {draw_separate: true}
+    combo_rp: {draw_separate: true}
+    combo_lb: {draw_separate: true}
+    combo_rb: {draw_separate: true}
+    combo_bspc: {draw_separate: true}
+    combo_esc: {draw_separate: true}
+    combo_lcb: {draw_separate: true}
+    combo_rcb: {draw_separate: true}
+
+  zmk_keycode_map:
+    # custom mappings
+    C_VOL_UP: Vol Up
+    C_VOL_DN: Vol Down
+    C_AL_CALC: Calc
+    C_PP: Play Pause
+
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Alt
+    RALT: Alt
+    LGUI: CMD
+    RGUI: CMD
+    LSHFT: Shift
+    RSHFT: Shift
+    ESC: Esc
+    SPACE: ␣
+    BSPC: ⌫
+    RET: ⏎
+    TAB: ↹
+    DEL: ⌦
+
+    PG_UP: Page Up
+    PG_DN: Page Down
+    INS: Insert
+    HOME: Home
+    END: End
+    CAPS: Caps Lock
+    PSCRN: Print Scrn
+    PAUSE_BREAK: Pause Break
+
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
+
+    C_PP: ⏯
+
+    # defaults
+    AMPERSAND: '&'
+    AMPS: '&'
+    APOS: "'"
+    APOSTROPHE: "'"
+    ASTERISK: '*'
+    ASTRK: '*'
+    AT: '@'
+    AT_SIGN: '@'
+    BACKSLASH: \
+    BSLH: \
+    CARET: ^
+    COLON: ':'
+    COMMA: ','
+    DLLR: $
+    DOLLAR: $
+    DOT: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    EQUAL: '='
+    EXCL: '!'
+    EXCLAMATION: '!'
+    FSLH: /
+    GRAVE: '`'
+    GREATER_THAN: '>'
+    GT: '>'
+    HASH: '#'
+    LBKT: '['
+    LBRC: '{'
+    LEFT_BRACE: '{'
+    LEFT_BRACKET: '['
+    LEFT_PARENTHESIS: (
+    LESS_THAN: <
+    LPAR: (
+    LT: <
+    MINUS: '-'
+    NON_US_BACKSLASH: \
+    NON_US_BSLH: '|'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    PERCENT: '%'
+    PERIOD: .
+    PIPE: '|'
+    PIPE2: '|'
+    PLUS: +
+    POUND: '#'
+    PRCNT: '%'
+    QMARK: '?'
+    QUESTION: '?'
+    RBKT: ']'
+    RBRC: '}'
+    RIGHT_BRACE: '}'
+    RIGHT_BRACKET: ']'
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    SEMI: ;
+    SEMICOLON: ;
+    SINGLE_QUOTE: ''''
+    SLASH: /
+    SQT: ''''
+    STAR: '*'
+    TILDE: '~'
+    TILDE2: '~'
+    UNDER: _
+    UNDERSCORE: _
+draw_config:
+  dark_mode: auto
