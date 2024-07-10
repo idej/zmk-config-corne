@@ -32,8 +32,8 @@ layers:
   - .
   - /
   - Caps Word
-  - {t: ↹, h: lower}
-  - ␣
+  - {t: ␣, h: lower}
+  - ↹
   - ⏎
   - {t: ⌫, h: raise}
   - ''''
@@ -85,7 +85,7 @@ layers:
   - '*'
   - (
   - )
-  - ''
+  - '"'
   - ''''
   - '`'
   - '~'
@@ -112,10 +112,10 @@ layers:
   - {type: held}
   - RIGHT SHIFT
 combos:
-- p: [2, 3]
+- p: [13, 12]
   k: (
   draw_separate: true
-- p: [6, 7]
+- p: [16, 17]
   k: )
   draw_separate: true
 - p: [12, 11]
