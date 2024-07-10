@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Ctrl}
-  - {t: S, h: LEFT ALT}
+  - {t: A, h: ⌃}
+  - {t: S, h: ⌥}
   - {t: D, h: LEFT WIN}
   - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT WIN}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: Ctrl}
+  - {t: L, h: ⌥}
+  - {t: ;, h: ⌃}
   - Z
   - X
   - C
@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - /
-  - '&caps_word'
+  - Caps Word
   - ↹
   - {t: ␣, h: lower}
-  - {t: ENTER, h: raise}
-  - BACKSPACE
-  - Caps Lock
+  - {t: ⏎, h: raise}
+  - ⌫
+  - ⇪
   lower:
   - '1'
   - '2'
@@ -68,12 +68,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CMD
+  - ⌘
   - {t: ▽, type: trans}
   - {t: ␣, type: held}
   - ⏎
   - {t: ▽, type: trans}
-  - Alt
+  - RALT
   raise:
   - '!'
   - '@'
@@ -105,12 +105,12 @@ layers:
   - '{'
   - '}'
   - '|'
-  - CMD
+  - ⌘
   - {t: ▽, type: trans}
   - ␣
   - {t: ⏎, type: held}
   - {t: ▽, type: trans}
-  - Alt
+  - RALT
 combos:
 - p: [2, 3]
   k: (
@@ -128,7 +128,7 @@ combos:
   k: Esc
   draw_separate: true
 - p: [16, 17, 18]
-  k: BACKSPACE
+  k: ⌫
   draw_separate: true
 - p: [10, 11]
   k: '{'
