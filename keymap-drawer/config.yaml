@@ -1,14 +1,14 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   zmk_combos:
-    lp: {draw_separate: true}
-    rp: {draw_separate: true}
-    lb: {draw_separate: true}
-    rb: {draw_separate: true}
+    LP: {draw_separate: true}
+    RP: {draw_separate: true}
+    LB: {draw_separate: true}
+    RB: {draw_separate: true}
     bspc: {draw_separate: true}
     esc: {draw_separate: true}
-    lcb: {draw_separate: true}
-    rcb: {draw_separate: true}
+    LCB: {draw_separate: true}
+    RCB: {draw_separate: true}
 
   zmk_keycode_map:
     # custom mappings
