@@ -122,8 +122,10 @@ combos:
   k: ']'
 - p: [11, 12, 13]
   k: Esc
+  draw_separate: true
 - p: [16, 17, 18]
   k: BACKSPACE
+  draw_separate: true
 - p: [10, 11]
   k: '{'
 - p: [18, 19]
